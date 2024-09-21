@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Brand Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <img src="images/logo.png" alt="Brand Logo" />
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Shop</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__shop-button">
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Fall Collection" class="hero__image" />
+      <div class="hero__overlay">
+        <h1 class="hero__title">Introducing Our Fall Collection</h1>
+        <a href="#feature-product" class="btn hero__btn">Shop Now</a>
+      </div>
+    </section>
+
+   
+
+    <!-- Product Grid Section -->
+    <section class="products">
+      <h2 class="products__title">Featured Products</h2>
+      <div class="products__grid">
+        <!-- Product 1 -->
+        <div class="product">
+          <div class="product__image-container">
+            <img
+              src="images/product1.jpg"
+              alt="Product 1"
+              class="product__image"
+            />
+          </div>
+          <h3 class="product__name">Elegant Jacket</h3>
+          <p class="product__price">$120.00</p>
+          <button class="btn product__add-button">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product">
+          <div class="product__image-container">
+            <img
+              src="images/product2.jpg"
+              alt="Product 2"
+              class="product__image"
+            />
+          </div>
+          <h3 class="product__name">Stylish Sneakers</h3>
+          <p class="product__price">$80.00</p>
+          <button class="btn product__add-button">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product">
+          <div class="product__image-container">
+            <img
+              src="images/product3.jpg"
+              alt="Product 3"
+              class="product__image"
+            />
+          </div>
+          <h3 class="product__name">Classic Hat</h3>
+          <p class="product__price">$35.00</p>
+          <button class="btn product__add-button">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product">
+          <div class="product__image-container">
+            <img
+              src="images/product4.jpg"
+              alt="Product 4"
+              class="product__image"
+            />
+          </div>
+          <h3 class="product__name">Leather Belt</h3>
+          <p class="product__price">$50.00</p>
+          <button class="btn product__add-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="https://www.instagram.com/ig_aakash_thakur/" target="_blank" class="footer__social-link"
+          ><img src="images/social1.png" alt="Instagram"
+        /></a>
+        <a href="https://www.linkedin.com/in/aakash-kumar-400a28209/" target="_blank"  class="footer__social-link"
+          ><img src="images/social2.png" alt="LinkedIn"
+        /></a>
+        <a href="https://x.com/AAKASHAKKY1" target="_blank"  class="footer__social-link"
+          ><img src="images/social3.png" alt="Twitter X"
+        /></a>
+
+      </div>
+      <div class="footer__newsletter">
+        <form class="newsletter__form" id="newsletter-form">
+          <label for="newsletter-email" class="newsletter__label"
+            >Subscribe to our newsletter:</label
+          >
+          <input
+            type="email"
+            id="newsletter-email"
+            name="email"
+            class="newsletter__input"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="btn newsletter__button">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Add JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
